@@ -87,6 +87,99 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /*Global Styles */
+   body {
+    font-size: 16px;
+    width: 90%;
+   }
+
+
+   .content-wrapper {
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+    flex-wrap: wrap;
+
+   }
+
+   /* Header Styles */
+   nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+   }
+
+   /* Main Styles */
+   .hero-area {
+    display: flex;
+    justify-content: center;
+   }
+
+   .hero-area h1 {
+    font-size: 2rem;
+   }
+
+   main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-flow: row wrap;
+   }
+
+   .floral prints {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-flow: row wrap;
+   }
+
+  /* .floral-prints article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-flow: row wrap;
+   } */
+
+   .floral-ceramics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+   }
+
+   /*.floral-ceramics article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-flow: row wrap;
+   } */
+
+   .floral-purses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+   }
+
+   /*.floral-purses article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-flow: row wrap;
+
+   } */
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
