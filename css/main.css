@@ -111,6 +111,16 @@ textarea {
     list-style-type: none;
    }
 
+   ul .future-nav {
+    display: flex;
+    list-style-type: none;
+}
+
+   nav ul a {
+    color: #000;
+    text-decoration: solid #66e0ff;
+   }
+
    /* Main Styles */
    .hero-area {
     display: flex;
