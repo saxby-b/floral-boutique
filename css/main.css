@@ -221,6 +221,14 @@ textarea {
   .content-wrapper {
     display: flex;
     justify-content: space-around;
+    flex-flow: row wrap;
+  }
+
+  /*Main Page*/
+
+  .floral-prints, .floral-ceramics, .floral-purses {
+    width: 30%;
+    
   }
 }
 
