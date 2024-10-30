@@ -224,6 +224,24 @@ textarea {
     flex-flow: row wrap;
   }
 
+  footer .content-wrapper {
+    display: flex;
+    justify-content:  center;
+    flex-flow: row wrap;
+  }
+
+  footer .social {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-right: 30px;
+  }
+
+  footer ul {
+    list-style-type: none;
+  }
+
   /*Main Page*/
 
   .floral-prints, .floral-ceramics, .floral-purses {
