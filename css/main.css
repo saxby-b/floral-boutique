@@ -248,6 +248,21 @@ textarea {
     width: 30%;
     
   }
+
+  /*News Page */
+  
+  main .news {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+  }
+ /* .competition, .book-club, .nature-walk {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+  
+  } */
 }
 
 @media print,
