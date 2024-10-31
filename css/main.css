@@ -263,6 +263,13 @@ textarea {
     flex-flow: row wrap;
   
   } */
+
+  /*Future Page */
+
+  .charity, .art-class, .learning, .training, .speakers, .festivals {
+    width: 30%;
+
+  }
 }
 
 @media print,
