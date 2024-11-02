@@ -249,12 +249,11 @@ textarea {
     
   }
 
-  /*News Page */
-  
   main .news {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
+    width: 768px;
   }
   .competition, .book-club, .nature-walk {
     width: 40%;
