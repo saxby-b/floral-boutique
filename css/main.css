@@ -266,6 +266,12 @@ textarea {
     width: 30%;
 
   }
+
+  /* Products */
+  .plate, .scarves, .books, .vintage-fabric, .modern-fabric, .bowls, .purses, .sunset-bouquet, .art,
+  .earrings, .brooches, .necklaces {
+    width: 40%;
+  }
 }
 
 @media print,
