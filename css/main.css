@@ -238,6 +238,10 @@ textarea {
     margin-right: 30px;
   }
 
+  footer h3 {
+    width: 768px;
+  }
+
   footer ul {
     list-style-type: none;
   }
