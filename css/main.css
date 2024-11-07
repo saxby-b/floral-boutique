@@ -246,6 +246,15 @@ textarea {
     list-style-type: none;
   }
 
+  div .social {
+    width: 768px;
+  }
+
+  footer p {
+    margin: 0;
+    padding: 0;
+  }
+
   /*Main Page*/
 
   .floral-prints, .floral-ceramics, .floral-purses {
