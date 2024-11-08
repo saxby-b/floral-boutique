@@ -224,6 +224,10 @@ textarea {
     flex-flow: row wrap;
   }
 
+  h1 {
+    width: 768px;
+  }
+
   footer .content-wrapper {
     display: flex;
     justify-content:  center;
