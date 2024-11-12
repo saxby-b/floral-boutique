@@ -296,6 +296,10 @@ textarea {
   h1 {
     width: 1200px;
   }
+
+  div .social {
+    width: 1200px;
+  }
 }
 
 @media print,
