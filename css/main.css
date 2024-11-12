@@ -126,6 +126,19 @@ textarea {
     font-size: 2rem;
    }
 
+   /* Main Section */
+   article div {
+    align-content: center;
+   }
+
+   article div img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #d1d1e0;
+    max-height: 400px;
+    margin-left: 40px;
+   }
+
    
 
 
