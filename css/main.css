@@ -101,8 +101,22 @@ textarea {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-
    }
+
+   h1, article {
+    width: 90%;
+   }
+
+   article {
+    margin-left: 10px;
+   }
+
+   .social ul {
+    display: flex;
+    width: 667px;
+    list-style-type: none;
+}
+
 
    /* Header Styles */
    header {
@@ -124,6 +138,10 @@ textarea {
     text-decoration: solid #66e0ff;
    }
 
+   nav ul li {
+    margin-right: 20px;
+   }
+
 
    .hero-area h1 {
     font-size: 2rem;
@@ -142,6 +160,10 @@ textarea {
     margin-left: 40px;
    }
 
+   /* Footer Styles */
+   footer {
+    background-color: #b3ffe0;
+}
    
 
 
