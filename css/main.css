@@ -113,7 +113,7 @@ textarea {
 
    .social ul {
     display: flex;
-    width: 667px;
+    width: 100%;
     list-style-type: none;
 }
 
@@ -162,7 +162,9 @@ textarea {
 
    /* Footer Styles */
    footer {
-    background-color: #b3ffe0;
+   /* background-color: #b3ffe0; */
+   background-color: #71deb5;
+    color: #5a5e5d;
 }
    
 
