@@ -163,8 +163,13 @@ textarea {
    /* Footer Styles */
    footer {
    /* background-color: #b3ffe0; */
-   background-color: #71deb5;
+   /* background-color: #71deb5; */
+   background-color: #c3fac4;
     color: #5a5e5d;
+
+    div.social {
+      width: 100%;
+    }
 }
    
 
