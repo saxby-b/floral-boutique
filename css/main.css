@@ -163,10 +163,10 @@ textarea {
    div article img {
     background-repeat: no-repeat;
     background-size: cover;
-    background-color:  #d1d1e0;
+    /*background-color:  #d1d1e0; */
+    /*border: navy; */
     max-height: 400px;
     margin-left: 40px;
-    max-width: 400px;
    }
 
    /* Footer Styles */
