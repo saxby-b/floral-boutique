@@ -166,6 +166,7 @@ textarea {
     background-color:  #d1d1e0;
     max-height: 400px;
     margin-left: 40px;
+    max-width: 400px;
    }
 
    /* Footer Styles */
