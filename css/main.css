@@ -160,6 +160,14 @@ textarea {
     margin-left: 40px;
    }
 
+   div article img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:  #d1d1e0;
+    max-height: 400px;
+    margin-left: 40px;
+   }
+
    /* Footer Styles */
    footer {
    /* background-color: #b3ffe0; */
@@ -334,7 +342,7 @@ textarea {
   }
 
   /* Products */
-  .plate, .scarves, .books, .vintage-fabric, .modern-fabric, .bowls, .purses, .sunset-bouquet, .art,
+  .plate, .scarves, .books, .vintage-fabric, .modern-fabric, .bowls, .purses, .bouquet, .art,
   .earrings, .brooches, .necklaces {
     width: 40%;
   }
