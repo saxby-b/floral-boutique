@@ -153,7 +153,7 @@ article div img {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #d1d1e0;
-  max-height: 400px;
+  max-height: 200px;
   margin-left: 40px;
 }
 
@@ -162,7 +162,7 @@ div article img {
   background-size: cover;
   /*background-color:  #d1d1e0; */
   /*border: navy; */
-  max-height: 400px;
+  max-height: 200px;
   margin-left: 40px;
 }
 
@@ -170,7 +170,7 @@ div article img {
 footer {
   /* background-color: #b3ffe0; */
   /* background-color: #71deb5; */
-  background-color: #c3fac4;
+  background-color: #d9dcde;
   color: #5a5e5d;
 
   div.social {
@@ -371,6 +371,12 @@ footer {
 h1.news {
   width: 100%;
 }
+
+/*Products Page */
+article div img {
+  max-height: 400px;
+}
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
