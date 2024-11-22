@@ -166,6 +166,24 @@ div article img {
   margin-left: 40px;
 }
 
+/*Products Page */
+.plate,
+.scarves,
+.books,
+.vintage-fabric,
+.modern-fabric,
+.bowls,
+.purses,
+.bouquet,
+.art,
+.earrings,
+.brooches,
+.necklaces {
+  background-color: aliceblue;
+  margin-bottom: 20px;
+}
+
+
 /* Footer Styles */
 footer {
   /* background-color: #b3ffe0; */
