@@ -185,6 +185,20 @@ div article img {
 }
 
 
+/*Latest News Page */
+.news .content-wrapper {
+  background: #bdd4fc;
+  color: #6f737a;
+}
+
+.competition,
+.book-club,
+.nature-walk,
+.additional {
+  border: 2px solid white;
+  margin-bottom: 40px;
+}
+
 /* Footer Styles */
 footer {
   /* background-color: #b3ffe0; */
@@ -349,6 +363,8 @@ footer {
   .nature-walk,
   .additional {
     width: 40%;
+    border: 2px white solid;
+    margin: 20px;
   }
 
   /*Future Page */
