@@ -186,7 +186,7 @@ div article img {
 
 
 /*Latest News Page */
-.news .content-wrapper {
+.news .content-wrapper, .future .content-wrapper {
   background: #bdd4fc;
   color: #6f737a;
 }
@@ -194,7 +194,13 @@ div article img {
 .competition,
 .book-club,
 .nature-walk,
-.additional {
+.additional,
+.art-class,
+.charity,
+.learning,
+.training,
+.speakers,
+.festivals {
   border: 2px solid white;
   margin-bottom: 40px;
 }
