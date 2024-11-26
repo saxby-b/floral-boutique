@@ -184,9 +184,9 @@ div article img {
   margin-bottom: 20px;
 }
 
-
 /*Latest News Page */
-.news .content-wrapper, .future .content-wrapper {
+.news .content-wrapper,
+.future .content-wrapper {
   background: #bdd4fc;
   color: #6f737a;
 }
@@ -351,6 +351,11 @@ footer {
     width: 30%;
   }
 
+  div .floral-ceramics {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+  }
+
   /* Latest News Page */
 
   h1.news {
@@ -417,7 +422,6 @@ h1.news {
 article div img {
   max-height: 400px;
 }
-
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
