@@ -148,7 +148,7 @@ nav ul li {
   
 }
 
-/* Main Section */
+/* Home Page */
 article div {
   align-content: center;
 }
@@ -161,9 +161,13 @@ article div {
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
 }
+
+.floral-ceramics h2, .floral-prints h2, .floral-purses h2 {
+  border: 2px solid pink;
+  margin: 40px;
+}
+/*Main Section */
 article div img {
   background-repeat: no-repeat;
   background-size: cover;
