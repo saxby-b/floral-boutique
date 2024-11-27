@@ -145,6 +145,7 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 /* Main Section */
@@ -156,6 +157,11 @@ article div {
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   
 }
 article div img {
@@ -353,7 +359,6 @@ footer {
   }
 
   /*Main Page*/
-
   .floral-prints,
   .floral-ceramics,
   .floral-purses {
