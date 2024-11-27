@@ -142,13 +142,22 @@ nav ul li {
 
 .hero-area h1 {
   font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Main Section */
 article div {
   align-content: center;
 }
-
+.hero-area {
+  background-image: url(../img/main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  
+}
 article div img {
   background-repeat: no-repeat;
   background-size: cover;
