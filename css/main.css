@@ -163,9 +163,19 @@ article div {
   align-items: center;
 }
 
+
+.floral-ceramics, .floral-prints, .floral-purses {
+  border-bottom: 2px solid grey;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+}
 .floral-ceramics h2, .floral-prints h2, .floral-purses h2 {
   border: 2px solid pink;
   margin: 40px;
+}
+
+.floral-ceramics p, .floral-prints p, .floral-purses p {
+  margin-bottom: 0;
 }
 /*Main Section */
 article div img {
