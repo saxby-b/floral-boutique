@@ -163,6 +163,10 @@ article div {
   align-items: center;
 }
 
+.main-fabric img {
+  margin: 0;
+}
+
 
 .floral-ceramics, .floral-prints, .floral-purses {
   border-bottom: 2px solid grey;
@@ -373,10 +377,18 @@ footer {
   }
 
   /*Main Page*/
+
   .floral-prints,
   .floral-ceramics,
   .floral-purses {
     width: 30%;
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .floral-ceramics, .floral-purses {
+    width: 40%;
   }
 
   div .floral-ceramics {
