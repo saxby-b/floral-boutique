@@ -391,11 +391,12 @@ footer {
   }
 
   div .floral-ceramics {
-    border-right: 2px solid black;
+    border-right: 2px solid pink;
   }
 
   .floral-prints {
     width: 100%;
+    border-bottom: 2px solid pink;
   }
 
   .main-fabric img {
