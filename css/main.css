@@ -401,6 +401,8 @@ footer {
 
   .main-fabric img {
     width: 40%; 
+    padding: 0;
+    margin-right: 40px;
   }
 
   .floral-prints p {
