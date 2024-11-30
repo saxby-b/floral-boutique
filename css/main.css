@@ -425,6 +425,11 @@ footer {
     flex-flow: row wrap;
   }
 
+  .floral-ceramics p {
+    padding-top: 38px;
+    margin: 0;
+  }
+
   /* Latest News Page */
 
   h1.news {
