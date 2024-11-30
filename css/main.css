@@ -402,6 +402,9 @@ footer {
   .main-fabric img {
     width: 40%; 
     padding: 0;
+  }
+
+  .main-fabric {
     margin-right: 40px;
   }
 
