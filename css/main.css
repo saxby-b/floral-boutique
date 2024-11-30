@@ -381,7 +381,6 @@ footer {
   .floral-prints,
   .floral-ceramics,
   .floral-purses {
-    width: 30%;
     border-bottom: 0;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -394,6 +393,25 @@ footer {
   div .floral-ceramics {
     border-right: 2px solid black;
     border-left: 2px solid black;
+  }
+
+  .floral-prints {
+    width: 100%;
+  }
+
+  .main-fabric img {
+    width: 40%; 
+  }
+
+  .floral-prints p {
+    width: 40%;
+  }
+
+  .floral-prints article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
   }
 
   /* Latest News Page */
