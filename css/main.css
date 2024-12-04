@@ -163,9 +163,17 @@ article div {
   align-items: center;
 }
 
-.main-fabric img {
+main-fabric img {
   margin: 0;
-}
+} 
+
+/*article .fabric {
+  background-image: url(../img/main-fabric.jpg);
+  background-clip: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  
+} */
 
 
 .floral-ceramics, .floral-prints, .floral-purses {
@@ -201,6 +209,10 @@ div article img {
 }
 
 /*Products Page */
+.products-header {
+  background: aliceblue;
+  margin-bottom: 40px;
+}
 .plate,
 .scarves,
 .books,
