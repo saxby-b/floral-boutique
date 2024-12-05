@@ -250,17 +250,24 @@ div article img {
   margin-bottom: 40px;
 }
 
+.future h1 {
+  background-color: #f2a7e9;
+  color:#000;
+}
+
 /* Footer Styles */
 footer {
   /* background-color: #b3ffe0; */
   /* background-color: #71deb5; */
   background-color: #d9dcde;
   color: #5a5e5d;
+}
 
   div.social {
     width: 100%;
   }
-}
+
+
 
 /* ==========================================================================
    Helper classes
