@@ -145,6 +145,7 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #95eef0;
   
 }
 
@@ -406,10 +407,6 @@ footer {
     margin-bottom: 0;
   }
 
-  .hero-area h1 {
-    color: yellow;
-  }
-
   .floral-ceramics, .floral-purses {
     width: 40%;
   }
@@ -511,7 +508,9 @@ footer {
 }
 
 /* Main Page */
-
+.floral-prints h2 {
+  width: 80%;
+}
 .floral-ceramics p {
   padding-top: 0px;
 }
