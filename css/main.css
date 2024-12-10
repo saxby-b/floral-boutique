@@ -435,9 +435,9 @@ footer {
     margin-right: 40px;
   }
 
-  .floral-prints p {
-    width: 40%;
-  }
+ .floral-prints p {
+    width: 100%;
+  } 
 
   .floral-prints article {
     display: flex;
@@ -510,6 +510,11 @@ footer {
 /* Main Page */
 .floral-prints h2 {
   width: 80%;
+}
+
+.floral-prints p {
+  width: 40%;
+  padding-left: 40px;
 }
 .floral-ceramics p {
   padding-top: 0px;
