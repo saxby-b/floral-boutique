@@ -146,7 +146,6 @@ nav ul li {
   justify-content: center;
   align-items: center;
   color: #95eef0;
-  
 }
 
 /* Home Page */
@@ -164,9 +163,25 @@ article div {
   align-items: center;
 }
 
-div .floral-prints article img  {
+div .floral-prints {
+  border-top: 40px solid pink;
+}
+
+.floral-prints p {
+  width: 100%;
+}
+/* .floral-prints {
+  width: 100%;
+  padding-bottom: 40px;
+  background-image: url(../img/main-fabric.jpg);
+} */
+
+/* .floral-prints p, .floral-prints h2 {
+  background: lightblue;
+} */
+/*div .floral-prints article img  {
   margin: 0;
-} 
+}  */
 
 /*article .fabric {
   background-image: url(../img/main-fabric.jpg);
@@ -176,18 +191,23 @@ div .floral-prints article img  {
   
 } */
 
-
-.floral-ceramics, .floral-prints, .floral-purses {
+.floral-ceramics,
+.floral-prints,
+.floral-purses {
   border-bottom: 2px solid grey;
   padding-bottom: 30px;
   margin-bottom: 0px;
 }
-.floral-ceramics h2, .floral-prints h2, .floral-purses h2 {
+.floral-ceramics h2,
+.floral-prints h2,
+.floral-purses h2 {
   border: 2px solid pink;
   margin: 40px;
 }
 
-.floral-ceramics p, .floral-prints p, .floral-purses p {
+.floral-ceramics p,
+.floral-prints p,
+.floral-purses p {
   margin-bottom: 0;
 }
 /*Main Section */
@@ -253,7 +273,7 @@ div article img {
 
 .future h1 {
   background-color: #95eef0;
-  color:#000;
+  color: #000;
   width: 70%;
 }
 
@@ -265,11 +285,9 @@ footer {
   color: #5a5e5d;
 }
 
-  div.social {
-    width: 100%;
-  }
-
-
+div.social {
+  width: 100%;
+}
 
 /* ==========================================================================
    Helper classes
@@ -407,7 +425,8 @@ footer {
     margin-bottom: 0;
   }
 
-  .floral-ceramics, .floral-purses {
+  .floral-ceramics,
+  .floral-purses {
     width: 40%;
   }
 
@@ -416,18 +435,19 @@ footer {
     padding-right: 40px;
   }
 
-  .floral-prints {
+  /* .floral-prints {
     width: 100%;
-    border-bottom: 2px solid pink;
+    border-bottom: 20px solid pink;
     padding-bottom: 40px;
-  }
+    background-image: url(../img/main-fabric.jpg);
+  } */
 
   .floral-prints h2 {
     width: 60%;
   }
 
   .main-fabric img {
-    width: 40%; 
+    width: 40%;
     padding: 0;
   }
 
@@ -435,9 +455,11 @@ footer {
     margin-right: 40px;
   }
 
- .floral-prints p {
+  .floral-prints p {
     width: 100%;
-  } 
+    background: white;
+    color: black;
+  }
 
   .floral-prints article {
     display: flex;
@@ -505,32 +527,31 @@ footer {
   div .social {
     width: 1200px;
   }
-}
 
-/* Main Page */
-.floral-prints h2 {
-  width: 80%;
-}
+  /* Main Page */
+  .floral-prints h2 {
+    width: 80%;
+  }
 
-.floral-prints p {
-  width: 40%;
-  padding-left: 40px;
-}
-.floral-ceramics p {
-  padding-top: 0px;
-}
+  .floral-prints p {
+    width: 40%;
+    padding-left: 40px;
+  }
+  .floral-ceramics p {
+    padding-top: 0px;
+  }
 
-/*Latest News Page */
+  /*Latest News Page */
 
-h1.news {
-  width: 100%;
+  h1.news {
+    width: 100%;
+  }
+
+  /*Products Page */
+  article div img {
+    max-height: 400px;
+  }
 }
-
-/*Products Page */
-article div img {
-  max-height: 400px;
-}
-
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
