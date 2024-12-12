@@ -172,6 +172,8 @@ div .floral-prints {
 }
  .main-fabric {
  margin: 0;
+ padding: 0;
+ border: 10px solid #b3d4fc;
 }
 /* .floral-prints {
   width: 100%;
