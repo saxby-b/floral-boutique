@@ -170,6 +170,9 @@ div .floral-prints {
 .floral-prints p {
   width: 100%;
 }
+ .main-fabric {
+ margin: 0;
+}
 /* .floral-prints {
   width: 100%;
   padding-bottom: 40px;
