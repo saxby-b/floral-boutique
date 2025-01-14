@@ -114,6 +114,7 @@ article {
   display: flex;
   width: 100%;
   list-style-type: none;
+  justify-content:center;
 }
 
 /* Header Styles */
@@ -276,6 +277,7 @@ div article img {
   margin-bottom: 40px;
 }
 
+/*Coming Soon */
 .future h1 {
   border: 2px solid white;
   color: #000;
@@ -292,7 +294,26 @@ footer {
 
 div.social {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
+
+/*.social .fontawesome-icon ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} */
+
+li.fontawesome-icon {
+  margin-right: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
 
 /* ==========================================================================
    Helper classes
