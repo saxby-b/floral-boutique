@@ -298,21 +298,35 @@ div.social {
   justify-content: center;
 }
 
+footer .social ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  
+}
+
+footer .fontawesome-icon li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  background: pink;
+}
+
 /*.social .fontawesome-icon ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
 } */
 
-li.fontawesome-icon {
+/*li.fontawesome-icon {
   margin-right: 20px;
   text-decoration: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
-
-
-}
+} */
 
 
 /* ==========================================================================
