@@ -317,6 +317,10 @@ footer .fontawesome-icon li {
   color: pink;
 }
 
+footer p {
+  margin: 16px;
+}
+
 /*.social .fontawesome-icon ul {
   display: flex;
   justify-content: space-around;
@@ -452,10 +456,12 @@ footer .fontawesome-icon li {
   div .social {
     width: 768px;
   }
-
+  footer .social ul {
+    width: 30%;
+  }
   footer p {
-    margin: 0;
     padding: 0;
+    width: 100%;
   }
 
   /*Main Page*/
