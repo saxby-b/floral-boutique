@@ -288,12 +288,12 @@ div article img {
 footer {
   /* background-color: #b3ffe0; */
   /* background-color: #71deb5; */
-  background-color: #d9dcde;
+  background-color: #ededed;
   color: #5a5e5d;
 }
 
 div.social {
-  width: 100%;
+  width: 100%; 
   display: flex;
   justify-content: center;
 }
@@ -311,7 +311,10 @@ footer .fontawesome-icon li {
   justify-content: space-around;
   align-items: center;
   padding: 0;
-  background: pink;
+}
+
+.fa-facebook-f:before, .fa-facebook-f:after, .fa-instagram:before, .fa-instagram:after, .fa-twitter:before, .fa-twitter:after {
+  color: pink;
 }
 
 /*.social .fontawesome-icon ul {
