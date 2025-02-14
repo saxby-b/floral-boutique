@@ -579,6 +579,9 @@ footer p {
   }
 
   /* Main Page */
+  .floral-prints article {
+    padding-bottom: 60px;
+  }
   .floral-prints h2 {
     width: 80%;
   }
