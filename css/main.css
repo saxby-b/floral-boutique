@@ -146,7 +146,7 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: darkcyan;
+  color: #b3d4fc;
 }
 
 /* Home Page */
@@ -474,6 +474,14 @@ footer p {
     margin-bottom: 0;
   }
 
+  div .floral-prints {
+    border-bottom: 2px solid pink;
+  }
+
+  .floral-prints article {
+    padding-bottom: 40px;
+  }
+
   .floral-ceramics,
   .floral-purses {
     width: 40%;
@@ -482,6 +490,7 @@ footer p {
   div .floral-ceramics {
     border-right: 2px solid pink;
     padding-right: 40px;
+    padding-top: 0;
   }
 
   /* .floral-prints {
@@ -516,7 +525,7 @@ footer p {
   }
 
   .floral-ceramics p {
-    padding-top: 38px;
+    padding-top: 0;
     margin: 0;
   }
 
@@ -579,6 +588,9 @@ footer p {
   }
 
   /* Main Page */
+  .hero-area h1 {
+    font-size: 82px;
+  }
   .floral-prints article {
     padding-bottom: 60px;
   }
