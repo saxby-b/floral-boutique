@@ -625,6 +625,23 @@ footer p {
   }
 }
 @media only screen and (min-width: 1200px) {
+  /*Generic styles for pages */
+  h1 {
+    font-size: 3.75em;
+  }
+
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3 {
+    font-size: 1.875em;
+  }
+
+  p {
+    font-size: 1.125em;
+  }
+
   div .social {
     width: 1200px;
   }
