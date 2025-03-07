@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/*Global Styles */
+/*Global and generic styles */
 html {
   font-size: 1rem;
 }
@@ -104,22 +104,41 @@ body {
   flex-wrap: wrap;
 }
 
+
+h1 {
+  font-size: 2.25em;
+}
+
+/*article div {
+  align-content: center;
+} */
+
+/*article div img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d1d1e0;
+  max-height: 200px;
+  margin-left: 40px;
+} */
+
+div article img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 200px;
+  margin-left: 40px;
+  padding-top: 20px;
+}
+
+
 h1,
 article {
   width: 90%;
 }
 
+
 article {
   margin-left: 10px;
 }
-
-.social ul {
-  display: flex;
-  width: 100%;
-  list-style-type: none;
-  justify-content: center;
-}
-
 h2 {
   font-size: 1.875em;
 }
@@ -131,22 +150,23 @@ h3 {
 p {
   font-size: 0.875em;
 }
-
-nav {
-  font-size: 1.125em;
+.social ul {
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+  justify-content: center;
 }
+
 /* Header Styles */
 header {
   background-color: pink;
 }
+nav {
+  font-size: 1.125em;
+}
 nav ul {
   display: flex;
   justify-content: center;
-  list-style-type: none;
-}
-
-ul .future-nav {
-  display: flex;
   list-style-type: none;
 }
 
@@ -159,18 +179,9 @@ nav ul li {
   margin-right: 20px;
 }
 
-.hero-area h1 {
-  font-size: 2em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #b3d4fc;
-}
 
 /* Home Page */
-article div {
-  align-content: center;
-}
+
 .hero-area {
   background-image: url(../img/new-homepage.jpg);
   background-repeat: no-repeat;
@@ -180,6 +191,14 @@ article div {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.hero-area h1 {
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b3d4fc;
 }
 
 div .floral-prints {
@@ -194,26 +213,6 @@ div .floral-prints {
   padding: 0;
   border: 10px solid #b3d4fc;
 }
-/* .floral-prints {
-  width: 100%;
-  padding-bottom: 40px;
-  background-image: url(../img/main-fabric.jpg);
-} */
-
-/* .floral-prints p, .floral-prints h2 {
-  background: lightblue;
-} */
-/*div .floral-prints article img  {
-  margin: 0;
-}  */
-
-/*article .fabric {
-  background-image: url(../img/main-fabric.jpg);
-  background-clip: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  
-} */
 
 .floral-ceramics,
 .floral-prints,
@@ -274,6 +273,10 @@ div article img {
   margin-bottom: 20px;
 }
 
+.books {
+  width: 90%;
+}
+
 /*Latest News Page */
 .news .content-wrapper,
 .future .content-wrapper {
@@ -296,6 +299,10 @@ div article img {
 }
 
 /*Coming Soon */
+ul .future-nav {
+  display: flex;
+  list-style-type: none;
+}
 .future h1 {
   border: 2px solid white;
   color: #000;
