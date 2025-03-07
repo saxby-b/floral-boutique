@@ -498,8 +498,6 @@ footer p {
     font-size: 1.5em;
   }
 
-  
-
   /*Main Page*/
 
   .floral-prints,
@@ -527,6 +525,14 @@ footer p {
     border-right: 2px solid pink;
     padding-right: 40px;
     padding-top: 0;
+  }
+
+  div .floral-ceramics h2 {
+    margin-bottom: 20px;
+  }
+
+  div .floral-ceramics p {
+    margin-bottom: 20px;
   }
 
   /* .floral-prints {
@@ -641,7 +647,14 @@ footer p {
   div .floral-ceramics {
     padding-bottom: 20px;
   }
-  .floral-ceramics p {
+  div .floral-ceramics h2 {
+    margin-bottom: 40px;
+  }
+
+  div .floral-ceramics p {
+    margin-bottom: 0;
+  }
+  div .floral-ceramics p {
     padding-top: 0px;
   }
 
