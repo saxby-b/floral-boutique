@@ -446,7 +446,7 @@ footer p {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-  /* Pages Styles */
+  /* Generic Page Styles */
   .content-wrapper {
     display: flex;
     justify-content: space-evenly;
@@ -484,6 +484,18 @@ footer p {
   footer p {
     padding: 0;
     width: 100%;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3 {
+    font-size: 1.5em;
   }
 
   
