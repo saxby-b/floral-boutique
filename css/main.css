@@ -207,11 +207,13 @@ div .floral-prints {
 
 .floral-prints p {
   width: 100%;
+  
 }
 .main-fabric {
   margin: 0;
   padding: 0;
   border: 10px solid #b3d4fc;
+  
 }
 
 .floral-ceramics,
@@ -226,12 +228,14 @@ div .floral-prints {
 .floral-purses h2 {
   border: 2px solid pink;
   margin: 40px;
+  color: #6f737a;
 }
 
 .floral-ceramics p,
 .floral-prints p,
 .floral-purses p {
   margin-bottom: 0;
+  color: #6f737a;
 }
 /*Main Section */
 article div img {
